@@ -35,6 +35,20 @@ To view, these require braille sextant glyphs form the [Symbols for Legacy Compu
 |  🬁                       🬂     🬁🬀             🬂    🬁🬀       |
 ```
 
+In the above image, you're supposed to see the equivalent of the following:
+
+```
+|                                   |
+|  A B C D E F G H I J K L M        |
+|  N O P Q R S T U V W X Y Z        |
+|  1 2 3 4 5 6 7 8 9 0              |
+|  ! " # $ % & ' ( ) * + , - . / :  |
+|  ; < = > ? @ [ \ ] ^ _ ` { | } ~  |
+|                                   |
+```
+
+If you don't have a font installed that will allow you to see the Symbols for Legacy Computing block, I recommend [Iosevka](https://github.com/be5invis/Iosevka), a great open-source font.
+
 ## TODO
 
 - Add a web interface!

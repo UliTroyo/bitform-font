@@ -8,20 +8,20 @@
     #text {
       fill: #eac99b;
     }
-    @media (prefers-color-scheme: dark) {
-      #background {
-        fill: #19191a;
-      }
-      #text {
-        fill: #eac99b;
-      }
-    }
     @media (prefers-color-scheme: light) {
       #background {
         fill: #eac99b;
       }
       #text {
         fill: #19191a;
+      }
+    }
+    @media (prefers-color-scheme: dark) {
+      #background {
+        fill: #19191a;
+      }
+      #text {
+        fill: #eac99b;
       }
     }
   </style>
