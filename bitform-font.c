@@ -4,8 +4,8 @@
 #include <string.h>
 #include <unistd.h>
 
-#define MAX_INPUT_LEN 31
-#define OUTPUT_BUFFER_SIZE 2048
+#define MAX_INPUT_LEN 40
+#define OUTPUT_BUFFER_SIZE 3072
 
 typedef struct {
   char ch;
@@ -110,10 +110,11 @@ int main(int argc, char *argv[]) {
   // --help option.
   if (argc > 1 &&
       (strcmp(argv[1], "--help") == 0 || strcmp(argv[1], "-h") == 0)) {
-    printf("ASCII Art Generator\n\nUsage: echo \"text\" | ascii-art "
-           "[options]\n\nOptions:\n  --help, -h    Show this help "
-           "message\n\nInput must be piped through stdin and must be ASCII "
-           "text.\n");
+    printf("Bitform: an ascii text generator\n\n"
+           "\e[0;32mUsage:\e[0m\n  > echo \"text\" | bitform [options]\n\n"
+           "\e[0;32mOptions:\e[0m\n  \e[0;36m-h\e[0m, "
+           "\e[0;36m--help\e[0m: Show this help message\n\n"
+           "Input must be piped through stdin and must be ASCII text.\n");
     return 0;
   }
 
