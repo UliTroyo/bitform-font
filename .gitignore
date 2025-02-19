@@ -1,1 +1,9 @@
 bitform
+ascii-array
+print-ascii
+
+bin/
+*.dSYM/
+
+*.o
+.DS_Store
