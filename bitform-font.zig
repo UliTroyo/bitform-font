@@ -5,7 +5,6 @@ const Glyph = packed struct {
     width: usize,
 };
 
-fn compose
 
 
 const fontdata: []const Glyph = [_]Glyph{
