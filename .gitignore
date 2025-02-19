@@ -2,6 +2,7 @@ bitform
 ascii-array
 print-ascii
 
+data/
 bin/
 *.dSYM/
 
