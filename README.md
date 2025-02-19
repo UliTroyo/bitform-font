@@ -53,3 +53,9 @@ If you don't have a font installed that will allow you to see the Symbols for Le
 
 - Add a web interface!
 - ~~Add an SVG image so that the font is viewable even without font support for the Unicode block.~~
+- Create Unicode code point CLI
+
+## Extras
+
+- [unicode_names](https://github.com/huonw/unicode_names)
+- [nerd_fonts](https://www.nerdfonts.com/)
