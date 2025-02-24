@@ -17,4 +17,16 @@ export def main [] {
   | get 0
 }
 
+# Print a single glyph character from an int array.
+export extern bt-array-to-unicode-sextant []
 
+# The AI slop C version of this app.
+export extern bt-chatgpt-helpful-slop []
+
+# For the numbers 0-200, emit an ascii value
+# if it matches a valid glyph.
+export extern bt-emit-valid-ascii-in-200 []
+
+# Print the valid glyph ascii values, treating
+# the characters as ints.
+export extern bt-for-loop-with-ascii-ints []
