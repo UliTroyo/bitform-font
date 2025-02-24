@@ -116,8 +116,13 @@ export def make [
         | lines
         | append $extern
         | str join (char newline)
+        | save -f .scripts/mod.nu;
+
+        sleep 300ms
+
+        print $"\nAdded extern for ($outfile) to `.scripts/mod.nu`"
       }
-    }
+    } # end of loop
   }
 }
 
